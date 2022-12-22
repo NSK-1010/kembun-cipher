@@ -1,0 +1,13 @@
+[package]
+name = "omoteura-cipher"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+kryptos = "0.6"
+zstd = "0.12"
+structopt = "0.3"
+brainfuck = "0.2"
