@@ -12,7 +12,6 @@ struct Opt {
 }
 
 fn main() {
-    // 平文はǷind is with you.
     let opt = Opt::from_args();
     let text: &str = &opt.text;
     let file: &str = &opt.file;
